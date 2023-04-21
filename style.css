@@ -6,7 +6,7 @@
 }
 
 body{
-  background: linear-gradient(315deg, #0066FF, #00FFCC);
+  background: url(https://images.unsplash.com/photo-1600590711251-c439ffcc61bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGN1cnJlbmN5JTIwZXhjaGFuZ2V8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60);
   height: 100vh;
   display: flex;
   align-items: center;
@@ -14,14 +14,14 @@ body{
 }
 
 .container{
-  background-color: white;
+  background: transparent;
   padding: 10px 24px;
   border-radius: 20px;
   width: 490px;
 }
 
 h1{
-  color: #364547;
+  color: floralwhite;
   margin-left: 72px;
   margin-bottom: 0.5em;
   font-family: sans-serif;
@@ -42,7 +42,7 @@ select{
   height: 40px;
   font-size: 1.2em;
   cursor: pointer;
-  background: #66ffcc;
+  background: white;
   outline: none;
   color: black;
   margin: 0.2em 0;
@@ -68,8 +68,8 @@ input{
 .btn{
   width: 98%;
   height: 40px;
-  background: #364547;
-  color: white;
+  background: #c6e2e9;
+  color: black;
   border-radius: 10px;
   border: none;
   cursor: pointer;
